@@ -10,8 +10,6 @@ export const firebaseConfig = {
   measurementId: "G-ZH9NGYDR12",
 };
 
-console.log("Firebase config:", firebaseConfig);
-
 // Unsigned Cloudinary upload preset (safe to expose publicly for client-side uploads).
 export const cloudinaryConfig = {
   cloudName: "y8hacgwv",
