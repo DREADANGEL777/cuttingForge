@@ -72,12 +72,30 @@ const translations = {
       description:
         "Створюємо готові вироби та деталі за вашими ідеями, кресленнями або ескізами.",
       items: [
-        { title: "Декор для дому", text: "Карти, панно, таблички та інші елементи інтер'єру." },
-        { title: "Коробки та упаковка", text: "Подарункові коробки, органайзери та брендована упаковка." },
-        { title: "Меблеві деталі", text: "Фасади, вставки, елементи конструкцій та комплектуючі." },
-        { title: "Конструктори", text: "Дерев'яні пазли, моделі та навчальні набори." },
-        { title: "Сувеніри", text: "Брелоки, підставки, подарунки та корпоративна продукція." },
-        { title: "Індивідуальні вироби", text: "Виготовлення деталей за вашим кресленням." },
+        {
+          title: "Декор для дому",
+          text: "Карти, панно, таблички та інші елементи інтер'єру.",
+        },
+        {
+          title: "Коробки та упаковка",
+          text: "Подарункові коробки, органайзери та брендована упаковка.",
+        },
+        {
+          title: "Меблеві деталі",
+          text: "Фасади, вставки, елементи конструкцій та комплектуючі.",
+        },
+        {
+          title: "Конструктори",
+          text: "Дерев'яні пазли, моделі та навчальні набори.",
+        },
+        {
+          title: "Сувеніри",
+          text: "Брелоки, підставки, подарунки та корпоративна продукція.",
+        },
+        {
+          title: "Індивідуальні вироби",
+          text: "Виготовлення деталей за вашим кресленням.",
+        },
       ],
     },
     advantages: {
@@ -86,12 +104,30 @@ const translations = {
       description:
         "Ми поєднуємо точне обладнання, якісні матеріали та відповідальний підхід до кожного замовлення.",
       items: [
-        { title: "Висока точність", text: "Лазерне різання та фрезерування з мінімальною похибкою." },
-        { title: "Швидке виконання", text: "Оптимізований процес дозволяє швидко виготовляти замовлення." },
-        { title: "Робота за файлами", text: "Приймаємо DXF, SVG, AI, PDF та інші формати." },
-        { title: "Серійне виробництво", text: "Виготовляємо як одиничні вироби, так і великі партії." },
-        { title: "Контроль якості", text: "Перевіряємо кожну деталь перед відправкою." },
-        { title: "Індивідуальний підхід", text: "Допомагаємо реалізувати нестандартні ідеї." },
+        {
+          title: "Висока точність",
+          text: "Лазерне різання та фрезерування з мінімальною похибкою.",
+        },
+        {
+          title: "Швидке виконання",
+          text: "Оптимізований процес дозволяє швидко виготовляти замовлення.",
+        },
+        {
+          title: "Робота за файлами",
+          text: "Приймаємо DXF, SVG, AI, PDF та інші формати.",
+        },
+        {
+          title: "Серійне виробництво",
+          text: "Виготовляємо як одиничні вироби, так і великі партії.",
+        },
+        {
+          title: "Контроль якості",
+          text: "Перевіряємо кожну деталь перед відправкою.",
+        },
+        {
+          title: "Індивідуальний підхід",
+          text: "Допомагаємо реалізувати нестандартні ідеї.",
+        },
       ],
     },
     gallery: {
@@ -113,10 +149,31 @@ const translations = {
       title: "Як ми виконуємо замовлення",
       description: "Простий та зрозумілий процес від ідеї до готового виробу.",
       steps: [
-        { number: "01", title: "Заявка та обговорення", text: "Надішліть креслення, ескіз або просто опишіть вашу ідею." },
-        { number: "02", title: "Розрахунок вартості", text: "Ми оцінюємо складність роботи та повідомляємо терміни." },
-        { number: "03", title: "Виготовлення", text: "Виконуємо лазерне різання або CNC фрезерування." },
-        { number: "04", title: "Отримання замовлення", text: "Надійно пакуємо та відправляємо готовий виріб." },
+        {
+          number: "01",
+          title: "Заявка та обговорення",
+          text: "Надішліть креслення, ескіз або просто опишіть вашу ідею.",
+        },
+        {
+          number: "02",
+          title: "Розрахунок вартості",
+          text: "Ми оцінюємо складність роботи та повідомляємо терміни.",
+        },
+        {
+          number: "03",
+          title: "Виготовлення",
+          text: "Виконуємо лазерне різання або CNC фрезерування.",
+        },
+        {
+          number: "04",
+          title: "Оплата",
+          text: "Оплата при отримані. Можлива предоплата(залежно від виробу)",
+        },
+        {
+          number: "05",
+          title: "Отримання замовлення",
+          text: "Надійно пакуємо та відправляємо готовий виріб.",
+        },
       ],
     },
     faq: {
@@ -124,18 +181,44 @@ const translations = {
       title: "Часті запитання",
       description: "Відповіді на найпоширеніші питання щодо наших послуг.",
       items: [
-        { question: "Яку фанеру ви використовуєте для лазерного різання?", answer: "Працюємо з якісною фанерою товщиною 5 мм та іншими матеріалами за попередньою домовленістю." },
-        { question: "Скільки коштує лазерне різання фанери?", answer: "Вартість залежить від розміру, складності макета, кількості деталей та обсягу замовлення. Надішліть креслення або файл, щоб отримати точний розрахунок." },
-        { question: "Скільки часу займає лазерне різання та ЧПУ фрезерування?", answer: "Зазвичай замовлення виконується протягом 1-3 робочих днів залежно від складності та кількості деталей." },
-        { question: "Чи можна замовити лазерну порізку фанери в одному екземплярі?", answer: "Так. Виготовляємо як одиничні вироби та деталі, так і серійні партії." },
-        { question: "Чи приймаєте замовлення з інших міст України?", answer: "Так. Ми працюємо із замовленнями по всій Україні та можемо відправити готові вироби перевізником." },
-        { question: "Які файли можна надіслати для виготовлення?", answer: "Приймаємо DXF, SVG, AI, PDF та зображення. Якщо у вас немає готового файлу, опишіть вашу ідею — ми обговоримо можливість її реалізації." },
+        {
+          question: "Яку фанеру ви використовуєте для лазерного різання?",
+          answer:
+            "Працюємо з якісною фанерою товщиною 5 мм та іншими матеріалами за попередньою домовленістю.",
+        },
+        {
+          question: "Скільки коштує лазерне різання фанери?",
+          answer:
+            "Вартість залежить від розміру, складності макета, кількості деталей та обсягу замовлення. Надішліть креслення або файл, щоб отримати точний розрахунок.",
+        },
+        {
+          question: "Скільки часу займає лазерне різання та ЧПУ фрезерування?",
+          answer:
+            "Зазвичай замовлення виконується протягом 1-3 робочих днів залежно від складності та кількості деталей.",
+        },
+        {
+          question:
+            "Чи можна замовити лазерну порізку фанери в одному екземплярі?",
+          answer:
+            "Так. Виготовляємо як одиничні вироби та деталі, так і серійні партії.",
+        },
+        {
+          question: "Чи приймаєте замовлення з інших міст України?",
+          answer:
+            "Так. Ми працюємо із замовленнями по всій Україні та можемо відправити готові вироби перевізником.",
+        },
+        {
+          question: "Які файли можна надіслати для виготовлення?",
+          answer:
+            "Приймаємо DXF, SVG, AI, PDF та зображення. Якщо у вас немає готового файлу, опишіть вашу ідею — ми обговоримо можливість її реалізації.",
+        },
       ],
     },
     contact: {
       badge: "Замовлення",
       title: "Обговоримо ваш проєкт",
-      subtitle: "Заповніть форму, прикріпіть файли, і ми зв'яжемося з вами найближчим часом.",
+      subtitle:
+        "Заповніть форму, прикріпіть файли, і ми зв'яжемося з вами найближчим часом.",
       name: "Ваше ім'я",
       contactField: "Телефон або Email",
       message: "Опишіть ваше замовлення",
@@ -161,7 +244,8 @@ const translations = {
       },
     },
     footer: {
-      description: "Лазерне різання та ЧПУ фрезерування фанери. Виготовлення деталей і виробів під ваші задачі.",
+      description:
+        "Лазерне різання та ЧПУ фрезерування фанери. Виготовлення деталей і виробів під ваші задачі.",
       nav: "Навігація",
       services: "Послуги",
       gallery: "Роботи",
@@ -220,7 +304,8 @@ const translations = {
     services: {
       badge: "Services",
       title: "Precision Plywood Manufacturing",
-      description: "We provide laser cutting of 5 mm plywood and CNC routing for custom projects.",
+      description:
+        "We provide laser cutting of 5 mm plywood and CNC routing for custom projects.",
       item1title: "Laser Cutting",
       item1text:
         "Fast and accurate plywood cutting for decorative products, packaging, souvenirs and custom parts.",
@@ -229,7 +314,8 @@ const translations = {
       item1f3: "Complex shapes",
       item1f4: "Batch production",
       item2title: "CNC Routing",
-      item2text: "Routing grooves, holes and complex parts based on your drawings.",
+      item2text:
+        "Routing grooves, holes and complex parts based on your drawings.",
       item2f1: "DXF / SVG files",
       item2f2: "Grooves and holes",
       item2f3: "Custom parts",
@@ -238,33 +324,72 @@ const translations = {
     products: {
       badge: "What We Make",
       title: "Plywood Products For Your Needs",
-      description: "We create custom products and parts based on your ideas, drawings or sketches.",
+      description:
+        "We create custom products and parts based on your ideas, drawings or sketches.",
       items: [
-        { title: "Home Decor", text: "Maps, wall panels, signs and interior elements." },
-        { title: "Boxes & Packaging", text: "Gift boxes, organizers and branded packaging." },
-        { title: "Furniture Parts", text: "Panels, inserts and custom furniture components." },
-        { title: "Construction Kits", text: "Wooden puzzles, models and educational sets." },
-        { title: "Souvenirs", text: "Keychains, coasters, gifts and corporate products." },
-        { title: "Custom Products", text: "Parts manufactured according to your drawings." },
+        {
+          title: "Home Decor",
+          text: "Maps, wall panels, signs and interior elements.",
+        },
+        {
+          title: "Boxes & Packaging",
+          text: "Gift boxes, organizers and branded packaging.",
+        },
+        {
+          title: "Furniture Parts",
+          text: "Panels, inserts and custom furniture components.",
+        },
+        {
+          title: "Construction Kits",
+          text: "Wooden puzzles, models and educational sets.",
+        },
+        {
+          title: "Souvenirs",
+          text: "Keychains, coasters, gifts and corporate products.",
+        },
+        {
+          title: "Custom Products",
+          text: "Parts manufactured according to your drawings.",
+        },
       ],
     },
     advantages: {
       badge: "Advantages",
       title: "Why Customers Choose Us",
-      description: "We combine modern equipment, quality materials and a responsible approach to every project.",
+      description:
+        "We combine modern equipment, quality materials and a responsible approach to every project.",
       items: [
-        { title: "High Precision", text: "Laser cutting and CNC routing with minimal deviation." },
-        { title: "Fast Production", text: "Optimized workflow for quick project completion." },
-        { title: "Multiple Formats", text: "DXF, SVG, AI, PDF and other file formats." },
-        { title: "Batch Production", text: "From single pieces to large production runs." },
-        { title: "Quality Control", text: "Every product is checked before delivery." },
-        { title: "Custom Approach", text: "We help bring unique ideas to life." },
+        {
+          title: "High Precision",
+          text: "Laser cutting and CNC routing with minimal deviation.",
+        },
+        {
+          title: "Fast Production",
+          text: "Optimized workflow for quick project completion.",
+        },
+        {
+          title: "Multiple Formats",
+          text: "DXF, SVG, AI, PDF and other file formats.",
+        },
+        {
+          title: "Batch Production",
+          text: "From single pieces to large production runs.",
+        },
+        {
+          title: "Quality Control",
+          text: "Every product is checked before delivery.",
+        },
+        {
+          title: "Custom Approach",
+          text: "We help bring unique ideas to life.",
+        },
       ],
     },
     gallery: {
       badge: "Our Works",
       title: "Completed Projects",
-      description: "Explore examples created using laser cutting and CNC routing technology.",
+      description:
+        "Explore examples created using laser cutting and CNC routing technology.",
       items: [
         { title: "Decorative Map", category: "Decor" },
         { title: "Wooden Box", category: "Packaging" },
@@ -277,12 +402,34 @@ const translations = {
     process: {
       badge: "Process",
       title: "How We Work",
-      description: "A simple and clear process from your idea to the finished product.",
+      description:
+        "A simple and clear process from your idea to the finished product.",
       steps: [
-        { number: "01", title: "Request & Discussion", text: "Send drawings, sketches or describe your idea." },
-        { number: "02", title: "Price Calculation", text: "We evaluate the project and provide production time." },
-        { number: "03", title: "Manufacturing", text: "We produce your parts using laser cutting or CNC routing." },
-        { number: "04", title: "Delivery", text: "We carefully package and ship your order." },
+        {
+          number: "01",
+          title: "Request & Discussion",
+          text: "Send drawings, sketches or describe your idea.",
+        },
+        {
+          number: "02",
+          title: "Price Calculation",
+          text: "We evaluate the project and provide production time.",
+        },
+        {
+          number: "03",
+          title: "Manufacturing",
+          text: "We produce your parts using laser cutting or CNC routing.",
+        },
+        {
+          number: "04",
+          title: "Payment",
+          text: "Payment upon receipt. Prepayment is possible (depending on the product).",
+        },
+        {
+          number: "05",
+          title: "Delivery",
+          text: "We carefully package and ship your order.",
+        },
       ],
     },
     faq: {
@@ -290,18 +437,41 @@ const translations = {
       title: "Frequently Asked Questions",
       description: "Answers to the most common questions about our services.",
       items: [
-        { question: "What plywood do you use?", answer: "We work with quality 5 mm plywood and other materials on request." },
-        { question: "How much does plywood laser cutting cost?", answer: "The cost depends on size, layout complexity, number of parts and order volume. Send us your drawing or file for an accurate quote." },
-        { question: "How long does production take?", answer: "Usually 1-3 working days depending on project complexity." },
-        { question: "Can I order one item?", answer: "Yes, we make both single products and batch orders." },
-        { question: "Do you accept orders from other cities in Ukraine?", answer: "Yes, we work with orders from across Ukraine and can ship finished products by courier." },
-        { question: "Which files can I send?", answer: "We accept DXF, SVG, AI, PDF and images. If you don't have a ready file, describe your idea — we'll discuss how to bring it to life." },
+        {
+          question: "What plywood do you use?",
+          answer:
+            "We work with quality 5 mm plywood and other materials on request.",
+        },
+        {
+          question: "How much does plywood laser cutting cost?",
+          answer:
+            "The cost depends on size, layout complexity, number of parts and order volume. Send us your drawing or file for an accurate quote.",
+        },
+        {
+          question: "How long does production take?",
+          answer: "Usually 1-3 working days depending on project complexity.",
+        },
+        {
+          question: "Can I order one item?",
+          answer: "Yes, we make both single products and batch orders.",
+        },
+        {
+          question: "Do you accept orders from other cities in Ukraine?",
+          answer:
+            "Yes, we work with orders from across Ukraine and can ship finished products by courier.",
+        },
+        {
+          question: "Which files can I send?",
+          answer:
+            "We accept DXF, SVG, AI, PDF and images. If you don't have a ready file, describe your idea — we'll discuss how to bring it to life.",
+        },
       ],
     },
     contact: {
       badge: "Order",
       title: "Let's Discuss Your Project",
-      subtitle: "Fill out the form, attach your files, and we'll get back to you as soon as possible.",
+      subtitle:
+        "Fill out the form, attach your files, and we'll get back to you as soon as possible.",
       name: "Your Name",
       contactField: "Phone or Email",
       message: "Describe your project",
@@ -327,7 +497,8 @@ const translations = {
       },
     },
     footer: {
-      description: "Laser cutting and CNC routing of plywood. Custom products and parts for your projects.",
+      description:
+        "Laser cutting and CNC routing of plywood. Custom products and parts for your projects.",
       nav: "Navigation",
       services: "Services",
       gallery: "Gallery",
@@ -340,7 +511,9 @@ const translations = {
 };
 
 function getPath(obj, path) {
-  return path.split(".").reduce((acc, key) => (acc == null ? acc : acc[key]), obj);
+  return path
+    .split(".")
+    .reduce((acc, key) => (acc == null ? acc : acc[key]), obj);
 }
 
 function applyLanguage(lang) {
@@ -371,9 +544,17 @@ function applyLanguage(lang) {
   setMeta('meta[name="description"]', "content", dict.seo.description);
   setMeta('meta[property="og:title"]', "content", dict.seo.ogTitle);
   setMeta('meta[property="og:description"]', "content", dict.seo.ogDescription);
-  setMeta('meta[property="og:locale"]', "content", lang === "ua" ? "uk_UA" : "en_US");
+  setMeta(
+    'meta[property="og:locale"]',
+    "content",
+    lang === "ua" ? "uk_UA" : "en_US",
+  );
   setMeta('meta[name="twitter:title"]', "content", dict.seo.ogTitle);
-  setMeta('meta[name="twitter:description"]', "content", dict.seo.ogDescription);
+  setMeta(
+    'meta[name="twitter:description"]',
+    "content",
+    dict.seo.ogDescription,
+  );
 
   document.querySelectorAll(".lang-switch button").forEach((btn) => {
     btn.classList.toggle("active", btn.dataset.lang === lang);
@@ -383,7 +564,9 @@ function applyLanguage(lang) {
   window.__lang = lang;
   window.__t = dict;
 
-  document.dispatchEvent(new CustomEvent("languagechange", { detail: { lang, t: dict } }));
+  document.dispatchEvent(
+    new CustomEvent("languagechange", { detail: { lang, t: dict } }),
+  );
 }
 
 function getDefaultLanguage() {
@@ -391,7 +574,11 @@ function getDefaultLanguage() {
   if (saved === "ua" || saved === "en") return saved;
 
   const browserLang = navigator.language || "";
-  return browserLang.toLowerCase().startsWith("uk") ? "ua" : (browserLang.toLowerCase().startsWith("en") ? "en" : "ua");
+  return browserLang.toLowerCase().startsWith("uk")
+    ? "ua"
+    : browserLang.toLowerCase().startsWith("en")
+      ? "en"
+      : "ua";
 }
 
 function initLanguageSwitcher() {
