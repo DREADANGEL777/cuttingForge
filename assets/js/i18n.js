@@ -3,10 +3,10 @@
 const translations = {
   ua: {
     seo: {
-      title: "Лазерне різання фанери та ЧПУ фрезерування | POLYFORGE",
+      title: "Лазерне різання фанери та ЧПУ фрезерування | CUTTING FORGE",
       description:
         "Лазерне різання та ЧПУ фрезерування фанери 5 мм у Тернополі та по Україні. Виготовлення деталей, виробів, упаковки та продукції на замовлення.",
-      ogTitle: "POLYFORGE — лазерне різання та ЧПУ фрезерування",
+      ogTitle: "CUTTING FORGE — лазерне різання та ЧПУ фрезерування",
       ogDescription:
         "Лазерне різання фанери та ЧПУ фрезерування 5 мм у Тернополі та по Україні. Виготовлення виробів і деталей на замовлення.",
     },
@@ -38,7 +38,7 @@ const translations = {
       badge: "Про нас",
       title: "Створюємо точні вироби з фанери за допомогою сучасних технологій",
       description:
-        "POLYFORGE спеціалізується на лазерному різанні та ЧПУ фрезеруванні фанери 5 мм. Виготовляємо деталі, декоративні вироби, сувенірну продукцію, упаковку та інші вироби за індивідуальними кресленнями. Працюємо із замовленнями у Тернополі та приймаємо замовлення по всій Україні.",
+        "CUTTING FORGE спеціалізується на лазерному різанні та ЧПУ фрезеруванні фанери 5 мм. Виготовляємо деталі, декоративні вироби, сувенірну продукцію, упаковку та інші вироби за індивідуальними кресленнями. Працюємо із замовленнями у Тернополі та приймаємо замовлення по всій Україні.",
       stat1value: "0.1 мм",
       stat1: "Точність роботи",
       stat2value: "1-3 дні",
@@ -258,10 +258,10 @@ const translations = {
 
   en: {
     seo: {
-      title: "Plywood Laser Cutting & CNC Routing | POLYFORGE",
+      title: "Plywood Laser Cutting & CNC Routing | CUTTING FORGE",
       description:
         "Laser cutting and CNC routing of 5 mm plywood in Ternopil and across Ukraine. Custom plywood parts, products, packaging and components.",
-      ogTitle: "POLYFORGE — Plywood Laser Cutting & CNC Routing",
+      ogTitle: "CUTTING FORGE — Plywood Laser Cutting & CNC Routing",
       ogDescription:
         "Professional laser cutting and CNC routing of 5 mm plywood in Ternopil and across Ukraine.",
     },
