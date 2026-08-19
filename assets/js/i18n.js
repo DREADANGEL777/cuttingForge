@@ -5,10 +5,11 @@ const translations = {
     seo: {
       title: "Лазерне різання фанери та ЧПУ фрезерування | CUTTING FORGE",
       description:
-        "Лазерне різання та ЧПУ фрезерування фанери 5 мм у Тернополі та по Україні. Виготовлення деталей, виробів, упаковки та продукції на замовлення.",
-      ogTitle: "CUTTING FORGE — лазерне різання та ЧПУ фрезерування",
+        "Лазерне різання фанери 5 мм та ЧПУ фрезерування/гравірювання у Тернополі та по Україні. Виготовлення деталей, виробів, упаковки та продукції на замовлення.",
+      ogTitle:
+        "CUTTING FORGE — лазерне різання та ЧПУ фрезерування/гравірювання",
       ogDescription:
-        "Лазерне різання фанери та ЧПУ фрезерування 5 мм у Тернополі та по Україні. Виготовлення виробів і деталей на замовлення.",
+        "Лазерне різання фанери та ЧПУ фрезерування/гравірювання 5 мм у Тернополі та по Україні. Виготовлення виробів і деталей на замовлення.",
     },
     nav: {
       home: "Головна",
@@ -20,11 +21,11 @@ const translations = {
     },
     hero: {
       badge: "Лазерне різання • CNC фрезерування",
-      title1: "Лазерне різання та",
-      title2: "ЧПУ фрезерування",
-      title3: "фанери 5 мм",
+      title1: "Лазерне різання фанери 5 мм, ",
+      title2: "ЧПУ фрезерування та",
+      title3: "ЧПУ гравірювання",
       description:
-        "Виконуємо лазерне різання та ЧПУ фрезерування фанери 5 мм у Тернополі та по Україні. Виготовляємо деталі, декоративні вироби, упаковку, меблеві компоненти та серійні партії.",
+        "Виконуємо лазерне різання фанери 5 мм та ЧПУ фрезерування/гравірювання у Тернополі та по Україні. Виготовляємо деталі, декоративні вироби, упаковку, меблеві компоненти та серійні партії.",
       buttonPrimary: "Отримати розрахунок",
       buttonSecondary: "Наші роботи",
       stat1value: "0.1 мм",
@@ -38,7 +39,7 @@ const translations = {
       badge: "Про нас",
       title: "Створюємо точні вироби з фанери за допомогою сучасних технологій",
       description:
-        "CUTTING FORGE спеціалізується на лазерному різанні та ЧПУ фрезеруванні фанери 5 мм. Виготовляємо деталі, декоративні вироби, сувенірну продукцію, упаковку та інші вироби за індивідуальними кресленнями. Працюємо із замовленнями у Тернополі та приймаємо замовлення по всій Україні.",
+        "CUTTING FORGE спеціалізується на лазерному різанні фанери 5 мм та ЧПУ фрезеруванні/гравірюванні. Виготовляємо деталі, декоративні вироби, сувенірну продукцію, упаковку та інші вироби за індивідуальними кресленнями. Працюємо із замовленнями у Тернополі та приймаємо замовлення по всій Україні.",
       stat1value: "0.1 мм",
       stat1: "Точність роботи",
       stat2value: "1-3 дні",
@@ -50,7 +51,7 @@ const translations = {
       badge: "Послуги",
       title: "Точне виготовлення деталей із фанери",
       description:
-        "Виконуємо лазерне різання фанери 5 мм та ЧПУ фрезерування деталей будь-якої складності.",
+        "Виконуємо лазерне різання фанери 5 мм та ЧПУ фрезерування/гравірювання деталей будь-якої складності.",
       item1title: "Лазерне різання фанери",
       item1text:
         "Лазерне різання фанери 5 мм у Тернополі та по Україні. Виготовляємо декоративні вироби, сувеніри, упаковку, деталі та інші вироби на замовлення.",
@@ -58,7 +59,7 @@ const translations = {
       item1f2: "Висока точність",
       item1f3: "Складні контури",
       item1f4: "Серійне виробництво",
-      item2title: "ЧПУ фрезерування",
+      item2title: "ЧПУ фрезерування/гравірювання",
       item2text:
         "ЧПУ фрезерування фанери за вашими кресленнями. Виготовляємо деталі, пази, отвори та складні контури для одиничних замовлень і серійного виробництва.",
       item2f1: "DXF / SVG файли",
@@ -134,7 +135,7 @@ const translations = {
       badge: "Наші роботи",
       title: "Приклади виконаних проєктів",
       description:
-        "Перегляньте приклади виробів, створених за допомогою лазерного різання та ЧПУ фрезерування.",
+        "Перегляньте приклади виробів, створених за допомогою лазерного різання та ЧПУ фрезерування/гравірювання.",
       items: [
         { title: "Декоративна карта", category: "Декор" },
         { title: "Дерев'яна коробка", category: "Упаковка" },
@@ -182,9 +183,9 @@ const translations = {
       description: "Відповіді на найпоширеніші питання щодо наших послуг.",
       items: [
         {
-          question: "Яку фанеру ви використовуєте для лазерного різання?",
+          question: "Чи можна замовити ЧПУ-гравірування за власним дизайном?",
           answer:
-            "Працюємо з якісною фанерою товщиною 5 мм та іншими матеріалами за попередньою домовленістю.",
+            "Так, ви можете надати власний макет або креслення, а ми підготуємо його для ЧПУ-гравірування та виготовимо виріб відповідно до ваших розмірів і побажань.",
         },
         {
           question: "Скільки коштує лазерне різання фанери?",
@@ -245,7 +246,7 @@ const translations = {
     },
     footer: {
       description:
-        "Лазерне різання та ЧПУ фрезерування фанери. Виготовлення деталей і виробів під ваші задачі.",
+        "Лазерне різання фанери 5 мм та ЧПУ фрезерування/гравірювання. Виготовлення деталей і виробів під ваші задачі.",
       nav: "Навігація",
       services: "Послуги",
       gallery: "Роботи",
@@ -258,28 +259,32 @@ const translations = {
 
   en: {
     seo: {
-      title: "Plywood Laser Cutting & CNC Routing | CUTTING FORGE",
+      title:
+        "5 mm Plywood Laser Cutting & CNC Routing/Engraving | CUTTING FORGE",
       description:
-        "Laser cutting and CNC routing of 5 mm plywood in Ternopil and across Ukraine. Custom plywood parts, products, packaging and components.",
-      ogTitle: "CUTTING FORGE — Plywood Laser Cutting & CNC Routing",
+        "5 mm plywood laser cutting and CNC routing/engraving in Ternopil and across Ukraine. Custom parts, products, packaging and components.",
+      ogTitle:
+        "CUTTING FORGE — 5 mm Plywood Laser Cutting & CNC Routing/Engraving",
       ogDescription:
-        "Professional laser cutting and CNC routing of 5 mm plywood in Ternopil and across Ukraine.",
+        "5 mm plywood laser cutting and CNC routing/engraving in Ternopil and across Ukraine. Custom products and parts.",
     },
+
     nav: {
       home: "Home",
-      about: "About",
+      about: "About Us",
       services: "Services",
-      gallery: "Gallery",
+      gallery: "Our Works",
       contact: "Contact",
       button: "Order",
     },
+
     hero: {
-      badge: "Laser Cutting • CNC Routing",
-      title1: "Laser Cutting &",
-      title2: "CNC Routing",
-      title3: "of 5 mm Plywood",
+      badge: "Laser Cutting • CNC Routing & Engraving",
+      title1: "5 mm Plywood Laser Cutting,",
+      title2: "CNC Routing &",
+      title3: "CNC Engraving",
       description:
-        "We manufacture decorative products, furniture parts, construction kits, packaging and production batches with exceptional precision.",
+        "We provide 5 mm plywood laser cutting and CNC routing/engraving in Ternopil and across Ukraine. We manufacture parts, decorative products, packaging, furniture components and production batches.",
       buttonPrimary: "Get a Quote",
       buttonSecondary: "Our Works",
       stat1value: "0.1 mm",
@@ -289,11 +294,12 @@ const translations = {
       stat3value: "1000+",
       stat3: "Parts per Day",
     },
+
     about: {
       badge: "About Us",
       title: "Creating precise plywood products using modern technology",
       description:
-        "We specialize in laser cutting and CNC routing of 5 mm plywood. We manufacture decorative products, business components, souvenirs and custom orders.",
+        "CUTTING FORGE specializes in 5 mm plywood laser cutting and CNC routing/engraving. We manufacture parts, decorative products, souvenirs, packaging and other products according to custom designs. We work with customers in Ternopil and accept orders from across Ukraine.",
       stat1value: "0.1 mm",
       stat1: "Working Precision",
       stat2value: "1-3 days",
@@ -301,35 +307,40 @@ const translations = {
       stat3value: "100%",
       stat3: "Individual Approach",
     },
+
     services: {
       badge: "Services",
       title: "Precision Plywood Manufacturing",
       description:
-        "We provide laser cutting of 5 mm plywood and CNC routing for custom projects.",
-      item1title: "Laser Cutting",
+        "We provide 5 mm plywood laser cutting and CNC routing/engraving for projects of any complexity.",
+
+      item1title: "Plywood Laser Cutting",
       item1text:
-        "Fast and accurate plywood cutting for decorative products, packaging, souvenirs and custom parts.",
+        "5 mm plywood laser cutting in Ternopil and across Ukraine. We manufacture decorative products, souvenirs, packaging, parts and other custom products.",
       item1f1: "5 mm plywood",
       item1f2: "High precision",
       item1f3: "Complex shapes",
       item1f4: "Batch production",
-      item2title: "CNC Routing",
+
+      item2title: "CNC Routing/Engraving",
       item2text:
-        "Routing grooves, holes and complex parts based on your drawings.",
+        "CNC plywood routing according to your drawings. We manufacture parts, grooves, holes and complex shapes for both individual orders and batch production.",
       item2f1: "DXF / SVG files",
-      item2f2: "Grooves and holes",
+      item2f2: "Grooves & holes",
       item2f3: "Custom parts",
       item2f4: "Repeat production",
     },
+
     products: {
       badge: "What We Make",
       title: "Plywood Products For Your Needs",
       description:
-        "We create custom products and parts based on your ideas, drawings or sketches.",
+        "We create finished products and parts based on your ideas, drawings or sketches.",
+
       items: [
         {
           title: "Home Decor",
-          text: "Maps, wall panels, signs and interior elements.",
+          text: "Maps, wall panels, signs and other interior elements.",
         },
         {
           title: "Boxes & Packaging",
@@ -337,7 +348,7 @@ const translations = {
         },
         {
           title: "Furniture Parts",
-          text: "Panels, inserts and custom furniture components.",
+          text: "Furniture fronts, inserts, structural elements and components.",
         },
         {
           title: "Construction Kits",
@@ -353,11 +364,13 @@ const translations = {
         },
       ],
     },
+
     advantages: {
-      badge: "Advantages",
+      badge: "Our Advantages",
       title: "Why Customers Choose Us",
       description:
-        "We combine modern equipment, quality materials and a responsible approach to every project.",
+        "We combine precise equipment, quality materials and a responsible approach to every order.",
+
       items: [
         {
           title: "High Precision",
@@ -365,55 +378,59 @@ const translations = {
         },
         {
           title: "Fast Production",
-          text: "Optimized workflow for quick project completion.",
+          text: "An optimized workflow allows us to complete orders quickly.",
         },
         {
-          title: "Multiple Formats",
-          text: "DXF, SVG, AI, PDF and other file formats.",
+          title: "Multiple File Formats",
+          text: "We accept DXF, SVG, AI, PDF and other file formats.",
         },
         {
           title: "Batch Production",
-          text: "From single pieces to large production runs.",
+          text: "We manufacture both single products and large production runs.",
         },
         {
           title: "Quality Control",
-          text: "Every product is checked before delivery.",
+          text: "Every part is checked before shipment.",
         },
         {
-          title: "Custom Approach",
-          text: "We help bring unique ideas to life.",
+          title: "Individual Approach",
+          text: "We help bring unique and non-standard ideas to life.",
         },
       ],
     },
+
     gallery: {
       badge: "Our Works",
       title: "Completed Projects",
       description:
-        "Explore examples created using laser cutting and CNC routing technology.",
+        "Explore examples of products created using laser cutting and CNC routing/engraving technology.",
+
       items: [
         { title: "Decorative Map", category: "Decor" },
         { title: "Wooden Box", category: "Packaging" },
         { title: "Furniture Component", category: "Furniture" },
-        { title: "Educational Kit", category: "Models" },
-        { title: "Corporate Gift", category: "Souvenirs" },
+        { title: "Educational Construction Kit", category: "Models" },
+        { title: "Corporate Souvenir", category: "Souvenirs" },
         { title: "Custom Part", category: "CNC" },
       ],
     },
+
     process: {
-      badge: "Process",
+      badge: "Our Process",
       title: "How We Work",
       description:
         "A simple and clear process from your idea to the finished product.",
+
       steps: [
         {
           number: "01",
           title: "Request & Discussion",
-          text: "Send drawings, sketches or describe your idea.",
+          text: "Send us your drawing, sketch or simply describe your idea.",
         },
         {
           number: "02",
           title: "Price Calculation",
-          text: "We evaluate the project and provide production time.",
+          text: "We evaluate the project complexity and provide an estimated production time.",
         },
         {
           number: "03",
@@ -423,50 +440,55 @@ const translations = {
         {
           number: "04",
           title: "Payment",
-          text: "Payment upon receipt. Prepayment is possible (depending on the product).",
+          text: "Payment upon receipt. Prepayment is possible depending on the product.",
         },
         {
           number: "05",
-          title: "Delivery",
-          text: "We carefully package and ship your order.",
+          title: "Order Delivery",
+          text: "We carefully package and ship the finished product.",
         },
       ],
     },
+
     faq: {
       badge: "FAQ",
       title: "Frequently Asked Questions",
       description: "Answers to the most common questions about our services.",
+
       items: [
         {
-          question: "What plywood do you use?",
+          question: "Can I order CNC engraving based on my own design?",
           answer:
-            "We work with quality 5 mm plywood and other materials on request.",
+            "Yes. You can provide your own layout or drawing, and we will prepare it for CNC engraving and manufacture the product according to your dimensions and requirements.",
         },
         {
           question: "How much does plywood laser cutting cost?",
           answer:
-            "The cost depends on size, layout complexity, number of parts and order volume. Send us your drawing or file for an accurate quote.",
+            "The cost depends on the size, layout complexity, number of parts and order volume. Send us your drawing or file to receive an accurate quote.",
         },
         {
-          question: "How long does production take?",
-          answer: "Usually 1-3 working days depending on project complexity.",
+          question: "How long does laser cutting and CNC routing take?",
+          answer:
+            "Orders are usually completed within 1-3 working days, depending on the complexity and quantity of the parts.",
         },
         {
-          question: "Can I order one item?",
-          answer: "Yes, we make both single products and batch orders.",
+          question: "Can I order a single plywood laser-cut piece?",
+          answer:
+            "Yes. We manufacture both individual products and parts, as well as production batches.",
         },
         {
           question: "Do you accept orders from other cities in Ukraine?",
           answer:
-            "Yes, we work with orders from across Ukraine and can ship finished products by courier.",
+            "Yes. We accept orders from across Ukraine and can ship finished products using a courier or delivery service.",
         },
         {
-          question: "Which files can I send?",
+          question: "Which files can I send for production?",
           answer:
-            "We accept DXF, SVG, AI, PDF and images. If you don't have a ready file, describe your idea — we'll discuss how to bring it to life.",
+            "We accept DXF, SVG, AI, PDF and image files. If you don't have a ready file, describe your idea — we'll discuss how it can be brought to life.",
         },
       ],
     },
+
     contact: {
       badge: "Order",
       title: "Let's Discuss Your Project",
@@ -474,8 +496,8 @@ const translations = {
         "Fill out the form, attach your files, and we'll get back to you as soon as possible.",
       name: "Your Name",
       contactField: "Phone or Email",
-      message: "Describe your project",
-      uploadTitle: "Drag & Drop files here",
+      message: "Describe Your Order",
+      uploadTitle: "Drag & Drop Files Here",
       uploadSubtitle: "or click to browse",
       maxFiles: "Maximum 5 files",
       maxSize: "Up to 20 MB each",
@@ -484,24 +506,27 @@ const translations = {
       sending: "Sending...",
       success: "Your request has been sent successfully.",
       error: "Something went wrong. Please try again.",
+
       contactsTitle: "Contacts",
+
       errors: {
         requiredName: "Please enter your name.",
-        requiredContact: "Please enter phone or email.",
-        invalidContact: "Invalid phone or email.",
-        requiredMessage: "Please describe your project.",
+        requiredContact: "Please enter your phone number or email.",
+        invalidContact: "Invalid phone number or email.",
+        requiredMessage: "Please describe your order.",
         tooManyFiles: "Maximum 5 files allowed.",
         fileTooLarge: "File exceeds 20 MB.",
         invalidFormat: "Unsupported file format.",
         duplicateFile: "This file has already been added.",
       },
     },
+
     footer: {
       description:
-        "Laser cutting and CNC routing of plywood. Custom products and parts for your projects.",
+        "5 mm plywood laser cutting and CNC routing/engraving. Custom parts and products for your projects.",
       nav: "Navigation",
       services: "Services",
-      gallery: "Gallery",
+      gallery: "Our Works",
       contact: "Contact",
       contacts: "Contacts",
       rights: "All rights reserved.",
